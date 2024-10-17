@@ -119,7 +119,7 @@ The following hyperparameter sets were tested:
 
 The following results were obtained for each hyperparameter set:
 
-![Logo](results.png)
+![Logo](images/results.png)
 
 **4.3. Analysis of Results:**
 
@@ -131,7 +131,7 @@ The following results were obtained for each hyperparameter set:
 
 - **Set 3** had the highest training loss (2.7457) and validation loss (3.4590), indicating underfitting. The lower number of layers and smaller embedding dimension in Set 3 might have restricted the model’s capacity to learn complex patterns in the data.
 
-![Logo](loss_across_hyperparameter_sets.png)
+![Logo](images/loss_across_hyperparameter_sets.png)
 
 **4.3.2 BLEU Score (Translation Quality):**
 
@@ -141,7 +141,7 @@ The following results were obtained for each hyperparameter set:
 
 - **Set 3** had the lowest BLEU score (11.6246), which aligns with the higher losses observed. The lower capacity of the model (fewer layers and smaller embeddings) may have limited its ability to produce high-quality translations.
 
-![Logo](bleu_scores_across_hyperparameter_sets.png)
+![Logo](images/bleu_scores_across_hyperparameter_sets.png)
 
 ### 5. Pretrained Model
 
